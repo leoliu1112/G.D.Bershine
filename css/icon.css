@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'icons';
+    src: url("font/bootstrap-icons.woff2") format('woff2'),
+    url("font/bootstrap-icons.woff") format("woff");
+}
+
+.icon{
+    display: inline-block;
+    font: normal normal normal 1em/1 'icons';
+}
+
+.icon-wechat::before { content: "\f829";}
+.icon-geo::before { content: "\f3ea";}
+.icon-facebook::before { content: "\f344";}
+.icon-twitter::before { content: "\f5EF";}
